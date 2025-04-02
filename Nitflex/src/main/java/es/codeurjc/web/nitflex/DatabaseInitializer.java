@@ -48,7 +48,7 @@ public class DatabaseInitializer {
             reviewService.addReview(oppenheimer.id(), review);
 
             saveFilmWithURLImage(
-                new CreateFilmRequest("Barbie", "Barbie vive en Barbieland donde todo es ideal y lleno de música y color. Un buen día decide conocer el mundo real. Cuando el CEO de Mattel se entere, tratará de evitarlo a toda costa y devolver a Barbie a una caja.",2023, "+12"),
+                new CreateFilmRequest("A", "Barbie vive en Barbieland donde todo es ideal y lleno de música y color. Un buen día decide conocer el mundo real. Cuando el CEO de Mattel se entere, tratará de evitarlo a toda costa y devolver a Barbie a una caja.",2023, "+12"),
                 "images/bb.jpg"
             );
 
