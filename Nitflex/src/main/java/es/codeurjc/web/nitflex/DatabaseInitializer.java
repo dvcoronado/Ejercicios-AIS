@@ -40,7 +40,7 @@ public class DatabaseInitializer {
             userRepository.save(sergio);
 
             FilmDTO oppenheimer = saveFilmWithURLImage(
-                new CreateFilmRequest("Oppenheimer", "Película sobre el físico J. Robert Oppenheimer y su papel como desarrollador de la bomba atómica. Basada en el libro 'American Prometheus: The Triumph and Tragedy of J. Robert Oppenheimer' de Kai Bird y Martin J. Sherwin.",2023, "+18"),
+                new CreateFilmRequest("Explosión", "Película sobre el físico J. Robert Oppenheimer y su papel como desarrollador de la bomba atómica. Basada en el libro 'American Prometheus: The Triumph and Tragedy of J. Robert Oppenheimer' de Kai Bird y Martin J. Sherwin.",2023, "+18"),
                 "images/op.jpg"
             );
 
